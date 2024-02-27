@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.logoimg {
+    border-radius: 19px;
+}
+
+.logohead {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sub-options {
+    display: none;
+    font-size: 20px;
+}
+
+.sub-menu {
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.sub-menu li {
+    padding: 5px;
+}
+
+.nav-link {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bidhead {
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.trtr {
+    background-color: darkblue;
+}
+
+.sub-menu li a {
+    color: black;
+    list-style-type: none;
+}
+
+.options a:active {
+    background-color: #007bff;
+}
+
+.sub-menu1 {
+    list-style-type: none;
+    display: block;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+.live {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.options {
+    display: none;
+
+}
+
+.options a {
+    color: white;
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.options a:hover {
+    background-color: #555;
+}
+
+.sub-menu li a:hover {
+    color: black;
+}
+
+.search-bar input[type="text"] {
+    width: 70%;
+    padding: 8px;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.green-dot::before {
+    content: "\2022";
+    color: green;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.red-dot::before {
+    content: "\2022";
+    color: red;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.nested-table {
+    border-collapse: collapse;
+}
+
+.nested-table td {
+    border: none;
+    padding: 8px;
+}
